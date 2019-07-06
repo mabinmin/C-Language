@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void FirstWord();
+void SecondWord();
+
+int main()
+{
+    FirstWord();
+    SecondWord();
+    return 0;
+}
+
+void FirstWord()
+{
+    printf("Hello,");
+}
+
+void SecondWord()
+{
+    printf("World!\n");
+}
